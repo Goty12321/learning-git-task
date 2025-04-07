@@ -3,4 +3,6 @@ lista_zakupów = {
     "warzywniak": "['marchew','seler','rukola']"
 }
 
-print(lista_zakupów)
+for key in lista_zakupów:
+    values = lista_zakupów[key]
+    print(f"Idę do {key} i kupuję tam {values}.")

@@ -1,8 +1,11 @@
 lista_zakupów = {
-    "piekarnia": "['chleb','pączek','bułki']",
-    "warzywniak": "['marchew','seler','rukola']"
+    "piekarnia": ['chleb','pączek','bułki'],
+    "warzywniak": ['marchew','seler','rukola']
 }
 
 for key in lista_zakupów:
     values = lista_zakupów[key]
-    print(f"Idę do {key} i kupuję tam {values}.")
+    updated_values = []
+    for value in values:
+        updated_values.append(value.capitalize())
+    print(f"Idę do {key.capitalize()} i kupuję tam {updated_values}.")

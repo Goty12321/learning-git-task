@@ -11,3 +11,5 @@ for key in lista_zakupów:
         updated_values.append(value.capitalize())
     print(f"Idę do {key.capitalize()} i kupuję tam {updated_values}.")
 print(f"W sumie kupuję {ilość_produktów} produktów.")
+
+#POZDRAWIAM MENTORA BARDZO SERDECZNIE hshs
